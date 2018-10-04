@@ -14,6 +14,7 @@ export interface Options {
    * - record: use recorded nocks, record new nocks
    * - lockdown: use recorded nocks, disables all http calls even when not nocked, doesn't record
    **/
+  afterRecord?: any;
   mode?: nock.NockBackMode;
 }
 
