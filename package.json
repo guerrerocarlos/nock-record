@@ -51,7 +51,7 @@
     "typescript": "^2.8.1"
   },
   "dependencies": {
-    "nock": "guerrerocarlos/nock",
+    "nock": "guerrerocarlos/nock#master",
     "stack-trace": "^0.0.10"
   }
 }
